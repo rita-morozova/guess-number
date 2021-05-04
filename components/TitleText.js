@@ -6,7 +6,8 @@ const TitleText = props => <Text style={{...styles.title, ...props.style}}>{prop
 const styles = StyleSheet.create({
     title: {
        fontFamily: 'open-sans-bold',
-       fontSize: 18 
+       fontSize: 18,
+       color: 'white', 
     }
 });
 
